@@ -1,0 +1,11 @@
+# Скопировать в local.yaml и заполнить только на своём компьютере.
+# null означает «не настроено», а не текущий каталог.
+projects:
+  skeletoncrew: null
+  rrm: null
+  hanabi_western: null
+  legacy_crew_os: null
+executors:
+  Ollama:
+    cli: null
+    endpoint: null
