@@ -1,5 +1,25 @@
 # SkeletonCrew
 
+## Portfolio overview
+
+SkeletonCrew is a documentation-first design for coordinating
+AI-assisted development tasks across different executors.
+
+**Implemented as a specification:**
+- Task lifecycle and routing rules.
+- Separation of roles, executors, and models.
+- Markdown task schema with review and approval gates.
+- Context, access, and execution-budget guidelines.
+
+**Not implemented yet:** automatic dispatch, agent adapters,
+task queues, execution runtime, and automated retries.
+
+The goal is to make AI-assisted development traceable,
+reviewable, and controlled by a human operator.
+
+## Working documentation
+
+
 Ручная диспетчерская Skeleton Crew Games: выбрать проект, описать задачу, назначить роль и исполнителя, получить и проверить результат.
 
 **Role** — функция, например `Writer`. **Executor** — механизм выполнения, например `Codex`. Модель выбирается отдельно: `Ollama` — исполнитель, `llama3.2:3b` — модель.
